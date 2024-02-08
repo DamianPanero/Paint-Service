@@ -44,10 +44,8 @@ p{
   width:100%;
   height:65vh;
   bottom:0;
-  background-color:#BCC6CC;
-  
+  background-color:beige;
   color:beige;
-   
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -58,23 +56,46 @@ p{
   border-bottom: 4px solid grey;
   border-top:2px solid grey;
   color:#728FCE;
-  background-color:lightgrey; 
+  background-color: rgba(248,222,184,0.6)
+ 
   
 }
 div .card{
   width:8rem;
-  height: 11rem;
-  border:3px solid rgba(220, 90, 120, 0.6)
+  height:100%;
+  border:1px solid rgba(255, 255, 155, 0.6);
+  
 }
 .card{
   margin-top: auto;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  box-shadow: 2px 4px 8px rgba(240,240,200);
   
 }
  .buttons{
   display: flex;
   flex-direction: row;
-  margin-bottom:3rem;
+  margin-bottom:3rem; 
+  gap:10px;
+ 
+  
+}
+.button:hover{
+  color:blueviolet;
+  font-style: oblique;
+  font-family:"Finger Paint";
+  
+}
+
+ .logo{
+  width: 1.5rem;
+  height: 1.5rem;
+}
+div .logos{
+  display: flex;
+  align-self:  start;
+  margin-left:2rem;
+  gap: 1rem;
   
 }
 

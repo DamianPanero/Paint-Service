@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import './App.css'
 const background=<img src='../src/resources/fondo.jpg' alt="fondo" className='Background'/>
-const Colors=["Aquamarine","Blueviolet","Azure","cyan","Tomato","lightgrey","greenyellow","lightsalmon","lightpink","skyblue"];
+const Colors=["Aquamarine","Blueviolet","Azure","Cyan","Tomato","Lightgrey","Greenyellow","Lightsalmon","Lightpink","Skyblue"];
 
 
 
@@ -27,7 +27,11 @@ function App() {
       <div className="buttons">
       {Colors.map((colorName)=>(<button onClick={()=>
       setColor(colorName)}
-      key={colorName} className="button">{colorName}</button>))}
+      key={colorName} className="button" >{colorName}</button>))}
+      </div>
+      <div className='logos'>
+      <a href="https://www.linkedin.com/in/dami%C3%A1n-panero/" target='_blank'><img src='../src/assets/linkedin.png' className='logo'/></a>
+      <img src="../src/assets/react.svg" className='logo'/>
       </div>
     </div>
     </>
